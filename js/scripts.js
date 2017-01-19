@@ -16,7 +16,7 @@ $(document).ready(function() {
 
     $(".year").text(year);
 
-    if (!result) {                 // same as writing if (result === false)
+    if (!result) { 
       $(".not").text("not");
     } else {
       $(".not").text("");
